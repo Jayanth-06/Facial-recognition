@@ -11,7 +11,7 @@ facedetect = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_frontalf
 recognizer = cv2.face.LBPHFaceRecognizer_create()
 recognizer.read("Trainer.yml")
 
-name_list = ["", "AUTHORISED USER", "Pravas"]
+name_list = ["", "JAYANTH", "Pravas"]
 
 imgBackground = cv2.imread("background.png")
 

@@ -7,7 +7,7 @@ import os
 recognizer = cv2.face.LBPHFaceRecognizer_create()
 
 # Dataset path
-path = "datasets"
+path = "./datasets"
 
 def getImageID(path):
     # Get list of image file paths in the dataset directory
